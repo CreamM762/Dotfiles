@@ -25,6 +25,9 @@ eval "$(starship init zsh)"
 # Load VI mode
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
+# Load ZSH-autocomplete
+source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
 # Configure and display pfetch
 export PF_INFO="ascii title os kernel de shell editor uptime pkgs memory palette"
 pfetch
